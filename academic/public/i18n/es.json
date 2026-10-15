@@ -1,0 +1,70 @@
+{
+  "layout-brand": "Centro de Aprendizaje",
+  "layout-toggle-navigation": "Alternar navegación",
+  "layout-main-navigation": "Navegación principal",
+  "layout-language-switcher": "Idioma",
+
+  "menu-home": "Inicio",
+  "menu-about": "Acerca de",
+  "menu-students": "Estudiantes",
+  "menu-enrollments": "Matrículas",
+
+  "title-home": "Centro Académico ACME - Inicio",
+  "title-about": "Centro Académico ACME - Acerca de",
+  "title-page-not-found": "Centro Académico ACME - Página no encontrada",
+
+  "footer-copyright": "Copyright © 2026 ACME Studios.",
+  "footer-powered-by": "Desarrollado con Angular 22 y Angular Material.",
+
+  "home-title": "Centro de Aprendizaje ACME",
+  "home-welcome": "Bienvenido al centro de aprendizaje.",
+
+  "about-title": "Acerca de",
+  "about-description": "Aplicación del Centro de Aprendizaje construida con Angular 22 y Angular Material.",
+
+  "page-not-found-title": "Página no encontrada",
+  "page-not-found-path-prefix": "La ruta",
+  "page-not-found-path-suffix": "no existe.",
+  "page-not-found-go-home": "Ir al inicio",
+
+  "common-id": "ID",
+  "common-actions": "Acciones",
+  "common-create": "Crear",
+  "common-update": "Actualizar",
+
+  "students-title": "Estudiantes",
+  "students-full-name": "Nombre completo",
+  "students-new": "Nuevo estudiante",
+  "students-edit": "Editar estudiante",
+  "students-edit-aria": "Editar estudiante",
+  "students-delete-aria": "Eliminar estudiante",
+  "students-full-name-required": "El nombre completo es obligatorio",
+
+  "enrollments-title": "Matrículas",
+  "enrollments-course-name": "Nombre del curso",
+  "enrollments-student": "Estudiante",
+  "enrollments-new": "Nueva matrícula",
+  "enrollments-edit": "Editar matrícula",
+  "enrollments-edit-aria": "Editar matrícula",
+  "enrollments-delete-aria": "Eliminar matrícula",
+  "enrollments-student-required": "El estudiante es obligatorio",
+  "enrollments-course-name-required": "El nombre del curso es obligatorio",
+
+  "paginator-items-per-page": "Elementos por página",
+  "paginator-next-page": "Página siguiente",
+  "paginator-previous-page": "Página anterior",
+  "paginator-first-page": "Primera página",
+  "paginator-last-page": "Última página",
+  "paginator-range": "{{start}} – {{end}} de {{length}}",
+  "paginator-range-empty": "0 de {{length}}",
+
+  "error-not-found": "No se encontró el recurso solicitado",
+  "error-load-enrollments": "No se pudieron cargar las matrículas",
+  "error-load-students": "No se pudieron cargar los estudiantes",
+  "error-create-enrollment": "No se pudo crear la matrícula",
+  "error-update-enrollment": "No se pudo actualizar la matrícula",
+  "error-delete-enrollment": "No se pudo eliminar la matrícula",
+  "error-create-student": "No se pudo crear el estudiante",
+  "error-update-student": "No se pudo actualizar el estudiante",
+  "error-delete-student": "No se pudo eliminar el estudiante"
+}

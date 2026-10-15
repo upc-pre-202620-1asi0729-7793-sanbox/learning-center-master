@@ -1,0 +1,12 @@
+<h1 class="title">{{ 'enrollments-title' | translate }}</h1>
+@if (store.loading()) { <mat-spinner/> }
+@if (store.error()) { <mat-error>{{ store.error() | translate }}</mat-error> }
+<table mat-table [dataSource]="dataSource()" matSort>
+  <ng-container matColumnDef="id"><th mat-header-cell *matHeaderCellDef mat-sort-header>{{ 'common-id' | translate }}</th><td mat-cell *matCellDef="let course">{{ course.id }}</td></ng-container>
+  <ng-container matColumnDef="courseName"><th mat-header-cell *matHeaderCellDef mat-sort-header>{{ 'enrollments-course-name' | translate }}</th><td mat-cell *matCellDef="let course">{{ course.courseName }}</td></ng-container>
+  <ng-container matColumnDef="student"><th mat-header-cell *matHeaderCellDef>{{ 'enrollments-student' | translate }}</th><td mat-cell *matCellDef="let course">{{ course.student?.fullName ?? '-' }}</td></ng-container>
+  <ng-container matColumnDef="actions"><th mat-header-cell *matHeaderCellDef>{{ 'common-actions' | translate }}</th><td mat-cell *matCellDef="let course"><button mat-icon-button [attr.aria-label]="'enrollments-edit-aria' | translate" (click)="editCourse(course.id)"><mat-icon>edit</mat-icon></button><button mat-icon-button [attr.aria-label]="'enrollments-delete-aria' | translate" (click)="deleteCourse(course.id)"><mat-icon>delete</mat-icon></button></td></ng-container>
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr><tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+</table>
+<mat-paginator [pageSize]="5" [pageSizeOptions]="[5, 10, 20]"/>
+<button mat-raised-button (click)="navigateToNew()">{{ 'enrollments-new' | translate }}</button>

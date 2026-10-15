@@ -1,0 +1,70 @@
+{
+  "layout-brand": "Learning Center",
+  "layout-toggle-navigation": "Toggle navigation",
+  "layout-main-navigation": "Main navigation",
+  "layout-language-switcher": "Language",
+
+  "menu-home": "Home",
+  "menu-about": "About",
+  "menu-students": "Students",
+  "menu-enrollments": "Enrollments",
+
+  "title-home": "ACME Academics Center - Home",
+  "title-about": "ACME Academics Center - About",
+  "title-page-not-found": "ACME Academics Center - Page Not Found",
+
+  "footer-copyright": "Copyright © 2026 ACME Studios.",
+  "footer-powered-by": "Powered by Angular 22 and Angular Material.",
+
+  "home-title": "ACME Learning Center",
+  "home-welcome": "Welcome to the learning center.",
+
+  "about-title": "About",
+  "about-description": "Learning Center application built with Angular 22 and Angular Material.",
+
+  "page-not-found-title": "Page not found",
+  "page-not-found-path-prefix": "The path",
+  "page-not-found-path-suffix": "does not exist.",
+  "page-not-found-go-home": "Go home",
+
+  "common-id": "ID",
+  "common-actions": "Actions",
+  "common-create": "Create",
+  "common-update": "Update",
+
+  "students-title": "Students",
+  "students-full-name": "Full name",
+  "students-new": "New student",
+  "students-edit": "Edit student",
+  "students-edit-aria": "Edit student",
+  "students-delete-aria": "Delete student",
+  "students-full-name-required": "Full name is required",
+
+  "enrollments-title": "Enrollments",
+  "enrollments-course-name": "Course name",
+  "enrollments-student": "Student",
+  "enrollments-new": "New enrollment",
+  "enrollments-edit": "Edit enrollment",
+  "enrollments-edit-aria": "Edit enrollment",
+  "enrollments-delete-aria": "Delete enrollment",
+  "enrollments-student-required": "Student is required",
+  "enrollments-course-name-required": "Course name is required",
+
+  "paginator-items-per-page": "Items per page",
+  "paginator-next-page": "Next page",
+  "paginator-previous-page": "Previous page",
+  "paginator-first-page": "First page",
+  "paginator-last-page": "Last page",
+  "paginator-range": "{{start}} – {{end}} of {{length}}",
+  "paginator-range-empty": "0 of {{length}}",
+
+  "error-not-found": "The requested resource was not found",
+  "error-load-enrollments": "Failed to load enrollments",
+  "error-load-students": "Failed to load students",
+  "error-create-enrollment": "Failed to create enrollment",
+  "error-update-enrollment": "Failed to update enrollment",
+  "error-delete-enrollment": "Failed to delete enrollment",
+  "error-create-student": "Failed to create student",
+  "error-update-student": "Failed to update student",
+  "error-delete-student": "Failed to delete student"
+}

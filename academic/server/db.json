@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "fullName": "Juan Pérez"
+    },
+    {
+      "id": 2,
+      "fullName": "María Gómez"
+    },
+    {
+      "id": 3,
+      "fullName": "deiko"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": 1,
+      "studentId": 1,
+      "courseName": "Matemáticas Discretas"
+    },
+    {
+      "id": 2,
+      "studentId": 2,
+      "courseName": "Algoritmos y Estructura de Datos"
+    }
+  ]
+}
